@@ -15,10 +15,10 @@ print('initial Na positions:\n', r_na)
 print('initial Cl positions:\n', r_cl)
 print('initial positions flattened shape:\n', vals_init )
 print('initial V  :', cluster.V() )
-#use scipy optimization function to minimize the potential energy 
+#use scipy optimization function to minimize the potential energy
 # the scipy optimization method used it BFGS
 res = scipy.optimize.minimize( fun=cluster, x0=vals_init, tol=1e-3, method="BFGS")
-cluster.set_vals(res.x)  # For some reason, "minimize" is not updating the class at the last iteration
+cluster.set_vals(res.x)  # For some reason,"minimize" is not updating class at the last iteration
 #print the rearranged positions
 print ("Final optimized cluster positions")
 print(cluster.positions)

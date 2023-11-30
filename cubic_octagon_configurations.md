@@ -13,15 +13,19 @@ r_cl = np.array( [ [0, 0, 0],[a, a, 0],[a, 0, a],[0, a, a] ] )
 
 ```
 
-This is for the cubic configuration 
-
+This is for the cubic configuration where the larger sphere represent the Na+ ions and the smaller ones represent the Cl- ions
 ![image](https://github.com/yasmensarhan27/23-Homework7G2/assets/38404107/67ccd44a-8789-4769-8196-491b0834e70e)
 
 
+Then applied scipy optimization function using BFGS method ``` res = scipy.optimize.minimize( fun=cluster, x0=vals_init, tol=1e-3, method="BFGS")  ```
 
 
 
 
+The Green and yellow dots are the initial Na and Cl positions respectively 
+
+
+![Unknown-10](https://github.com/yasmensarhan27/23-Homework7G2/assets/38404107/08f1dce8-a122-43d1-ad09-3ee230a07cf3)
 
 
 

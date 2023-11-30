@@ -1,6 +1,6 @@
 pytest
 pylint
 numpy
-matplotlib
+matplotlib>=3.2.0,<=3.5.2
 mpl_toolkits
 scipy

@@ -2,7 +2,7 @@
 This code will work with the cubic configuration
 by importing the functions from the main module 
 """
-import nacl_main
+from nacl_main import *
 #the empirical equilibrium distance
 a = 0.236
 #positions of Na and Cl ions

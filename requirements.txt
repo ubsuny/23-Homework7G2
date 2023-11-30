@@ -1,1 +1,6 @@
 pytest
+pylint
+numpy
+matplotlib
+mpl_toolkits
+scipy

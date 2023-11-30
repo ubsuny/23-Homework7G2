@@ -18,16 +18,19 @@ This is for the cubic configuration where the larger sphere represent the Na+ io
 
 
 Then applied scipy optimization function using BFGS method ``` res = scipy.optimize.minimize( fun=cluster, x0=vals_init, tol=1e-3, method="BFGS")  ```
+Create a 3D graph of the initial and the new positions of Na and Cl ions
+The Green and yellow dots are the initial Na and Cl positions respectively and the red dots are for Na+ new positions and the blue for Cl- ion
 
+the potential energy was ``` initial V  : -27.085601041071918 ``` and the final is ```Final potential: -28.235830565026856```
 
+this means the potential energy per ion pair changed from ~ -6.77 eV to ~ -7.05 eV
 
-
-The Green and yellow dots are the initial Na and Cl positions respectively 
-
-
+**comparing the old and new positions:**
+they are approximately simialr to each other:
 ![Unknown-10](https://github.com/yasmensarhan27/23-Homework7G2/assets/38404107/08f1dce8-a122-43d1-ad09-3ee230a07cf3)
 
 
+## Octagon Configuration
 
 
 

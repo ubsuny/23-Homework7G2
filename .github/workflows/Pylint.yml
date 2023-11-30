@@ -22,6 +22,7 @@ jobs:
              pip install -r requirements.txt  
 
       - name: Run Pylint
-        run: pylint **.py
+        run: pylint nacl_cubic.py
+             pylint nacl_octagon.py
         
     

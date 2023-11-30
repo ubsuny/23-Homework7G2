@@ -3,7 +3,7 @@ This code will work with the cubic configuration
 by importing the functions from the main module 
 """
 import nacl_main.py
-#the empirical equilibrium distance 
+#the empirical equilibrium distance
 a = 0.236
 #positions of Na and Cl ions
 r_na = np.array( [ [a,0,0], [0, a, 0], [0, 0, a],[a, a, a] ] )
@@ -16,7 +16,7 @@ print('initial positions flattened shape:\n', vals_init )
 print('initial V  :', cluster.V() )
 #use scipy to minimize the energy using BFGS
 res = scipy.optimize.minimize( fun=cluster, x0=vals_init, tol=1e-3, method="BFGS")
-cluster.set_vals(res.x)  # For some reason, "minimize" is not updating the class at the last iteration
+cluster.set_vals(res.x)  # For some reason, "minimize" is not updating class at the last iteration
 print ("Final optimized cluster positions")
 print(cluster.positions)
 print("Final potential:", res.fun)

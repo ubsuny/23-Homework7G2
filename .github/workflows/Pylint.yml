@@ -23,8 +23,7 @@ jobs:
 
       - name: Run Pylint
         run: |
-             pylint nacl_octagon.py
-             pylint nacl_cubic.py
+             pylint nacl_octagon.py, nacl_cubic.py
              
         
     

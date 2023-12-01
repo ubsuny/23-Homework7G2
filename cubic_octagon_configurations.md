@@ -45,7 +45,7 @@ r_cl = np.array( [ [0, 0.236, 0],[0.57, 0, 0],[0.167, -0.167, 0],[0.403, 0.403, 
 process similar to the cubic:
 the potential energy was ``` initial V  : -22.980062797276656 ``` and the final is ```Final potential: -27.7298422847269```
 
-this means the potential energy per ion pair changed from ~ -0.825 eV to ~ -6.945 eV
+this means the potential energy per ion pair changed from ~ -5.745 eV to ~ -6.945 eV
 
 **comparing the old and new positions:**
 the initial positions are not near the final positions:

@@ -19,8 +19,8 @@ potential then the ions will be re arranged.
     """
 from nacl_main import *
 # the initial coordinates of Na+ and Cl- ions.
-r_na = np.array( [ [0, 0, 0], [1.67,4.03,0], [5.7, 2.36, 0],[4.03, -1.67, 0] ] )
-r_cl = np.array( [ [0, 2.36, 0],[5.7, 0, 0],[1.67, -1.67, 0],[4.03, 4.03, 0] ] )
+r_na = np.array( [ [0, 0, 0], [0.167,0.403,0], [0.57, 0.236, 0],[0.403, 0.167, 0] ] )
+r_cl = np.array( [ [0, 0.236, 0],[0.57, 0, 0],[0.167, -0.167, 0],[0.403, 0.403, 0] ] )
 # cluster them in one array then flatten this array and print the aarays
 cluster = Cluster(r_na, r_cl)
 vals_init = cluster.get_vals()

@@ -63,5 +63,6 @@ Your code has been rated at 9.08/10
 ```
 
 References:
-[1. Evolving few-ion clusters of Na and Cl](https://www.researchgate.net/publication/201976884_Evolving_few-ion_clusters_of_Na_and_Cl)
-[2. 
+- Evolving few-ion clusters of Na and Cl](https://www.researchgate.net/publication/201976884_Evolving_few-ion_clusters_of_Na_and_Cl)
+- https://github.com/ubsuny/CompPhys/blob/main/MinMax/nacl.ipynb
+- K. Michaelian, "Evolving few-ion clusters of Na and Cl",Am. J. Phys. 66, 231 (1998)

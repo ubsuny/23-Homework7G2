@@ -35,24 +35,32 @@ they are approximately simialr to each other:
 Using the same equilibrium distance, The initial positions are assumed to be:
 
 ```
-r_na = np.array( [ [0, 0, 0], [1.67,4.03,0], [5.7, 2.36, 0],[4.03, -1.67, 0] ] )
-r_cl = np.array( [ [0, 2.36, 0],[5.7, 0, 0],[1.67, -1.67, 0],[4.03, 4.03, 0] ] )
+r_na = np.array( [ [0, 0, 0], [0.167,0.403,0], [0.57, 0.236, 0],[0.403, 0.167, 0] ] )
+r_cl = np.array( [ [0, 0.236, 0],[0.57, 0, 0],[0.167, -0.167, 0],[0.403, 0.403, 0] ] )
+
 
 ```
 ![image](https://github.com/yasmensarhan27/23-Homework7G2/assets/38404107/d71e15f5-0638-48ee-811a-03a1fbb532b9)
 
 process similar to the cubic:
-the potential energy was ``` initial V  : -3.3215578092527043 ``` and the final is ```Final potential: -27.78243508220967```
+the potential energy was ``` initial V  : -22.980062797276656 ``` and the final is ```Final potential: -27.7298422847269```
 
-this means the potential energy per ion pair changed from ~ -0.825 eV to ~ -6.945 eV
+this means the potential energy per ion pair changed from ~ -5.745 eV to ~ -6.945 eV
 
 **comparing the old and new positions:**
 the initial positions are not near the final positions:
 This means that considering initial positions with z components = zero wasn't the best estimation.
 
-![Unknown-12](https://github.com/yasmensarhan27/23-Homework7G2/assets/38404107/b59a6516-9e1d-4011-ac8f-1d55ee678aa5)
+
+![Unknown-14](https://github.com/yasmensarhan27/23-Homework7G2/assets/38404107/4c887b93-1223-41f9-aea3-b191bdd43d6d)
 
 
+## Linting:
+Used Pylint to lint my code:
+```
+-----------------------------------
+Your code has been rated at 9.08/10
+```
 
 References:
 [1. Evolving few-ion clusters of Na and Cl](https://www.researchgate.net/publication/201976884_Evolving_few-ion_clusters_of_Na_and_Cl)

@@ -1,0 +1,35 @@
+name: Lint Python Scripts
+
+on:  # when a merge request is accepted to the main branch, this code will be called upon
+  push:
+    branches:
+      - main
+# jobs is the list of actions that will be done when called upon
+jobs:
+  lint:
+    runs-on: ubuntu-latest # platform it runs on
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2 # allows this file to see other files in repository
+
+    - name: Set up Python
+      uses: actions/setup-python@v2 #installs python
+      with:
+        python-version: '3.10' # Specify the Python version you want to use
+
+    - name: Install linter #installs "pylint", which we will use to lint files
+      run: pip install pylint
+      
+    - name: Install numpy
+      run: pip install numpy
+      
+    - name: Install matplotlib
+      run: pip install matplotlib
+
+    - name: Install scipy
+      run: pip install scipy
+      
+      # lints file named "hubble_tools.py" using pylint
+    - name: Lint polyhedron_4.py
+      run: pylint polyhedron_4.py
+      continue-on-error: true

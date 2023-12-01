@@ -55,6 +55,12 @@ This means that considering initial positions with z components = zero wasn't th
 ![Unknown-14](https://github.com/yasmensarhan27/23-Homework7G2/assets/38404107/4c887b93-1223-41f9-aea3-b191bdd43d6d)
 
 
+## Linting:
+Used Pylint to lint my code:
+```
+-----------------------------------
+Your code has been rated at 9.08/10
+```
 
 References:
 [1. Evolving few-ion clusters of Na and Cl](https://www.researchgate.net/publication/201976884_Evolving_few-ion_clusters_of_Na_and_Cl)
